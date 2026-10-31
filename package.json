@@ -1,0 +1,23 @@
+{
+  "name": "nirnaya-ai",
+  "version": "1.0.0",
+  "description": "NIRNAYA AI - Know More. Question Better. Decide Smarter. Solo Hackathon Project Phase 1.",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend"
+  },
+  "keywords": [
+    "nirnaya-ai",
+    "decision-intelligence",
+    "gemini",
+    "research",
+    "triangulation"
+  ],
+  "author": "Naman",
+  "license": "MIT"
+}
+
